@@ -1,0 +1,31 @@
+# Composer dependencies
+/vendor/
+
+# mPDF dependencies not managed by Composer
+/mpdf-development/
+
+# Ignore configuration files that may contain sensitive information
+/wp-config.php
+/.env
+
+# Ignore specific system files
+.DS_Store
+Thumbs.db
+
+# Ignore specific IDE files
+/.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore node modules if using any Node.js-based tooling
+/node_modules/
+
+# Ignore other files that are generated and not part of source code
+/logs/
+/temp/
+/debug.log
