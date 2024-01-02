@@ -1,6 +1,9 @@
 # Composer dependencies
 /vendor/
 
+# PDFs generated
+/pdfs
+
 # mPDF dependencies not managed by Composer
 /mpdf-development/
 
