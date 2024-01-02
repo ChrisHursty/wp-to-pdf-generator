@@ -98,8 +98,8 @@ function wp2pdf_add_pdf_header_footer($mpdf, $post) {
     $headerHTML = '<div style="text-align: center; margin-bottom: 20px;">';
     $headerHTML .= '<img src="' . $logo_url . '" width="240" height="50" />';
     $headerHTML .= '<div><h1>' . $post->post_title . '</h1></div>';
-    $headerHTML .= '<hr style="border: 4px solid ##cd5441;"></div>';
+    $headerHTML .= '<hr style="border: 4px solid #cd5441;"></div>';
 
     $mpdf->WriteHTML($headerHTML);
-    $mpdf->SetHTMLFooter('<div style="text-align: center; font-size: 10pt; margin-top: 15pt !important;">AJEM. Some Legal Jargon. 2023.</div>');
+    $mpdf->SetHTMLFooter('<div style="text-align: center; font-size: 10pt; margin-top: 15pt !important;">AJEM. Some Legal Jargon. 2024.</div>');
 }
